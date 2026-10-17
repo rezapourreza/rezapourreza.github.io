@@ -8,6 +8,7 @@ references/
 *cv.*
 *.docx
 *.doc
+*.pdf
 .DS_Store
 __pycache__/
 .preview/

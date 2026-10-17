@@ -1,30 +1,24 @@
-# Personal homepage
+# Reza Pourreza — personal homepage
 
-A private working draft for `rezapourreza.github.io`. The website has not been published. This repository contains only website source files; the resume is reference material and must never be committed or uploaded here.
+Private working draft for `rezapourreza.github.io`. Public release has not been requested.
 
-## Current draft
+## Website
 
-- Responsive single-page academic layout, ready for GitHub Pages.
-- Sections for About, Research, Selected Publications, Experience & Education, and Contact.
-- Clearly marked content placeholders until personal details are supplied and reviewed.
-- No external scripts, fonts, analytics, cookies, or build dependencies.
+- `index.html`: biography, profile photo, top social links, and seven selected papers with original paper figures and short summaries.
+- `publications.html`: scholarly papers grouped by publication year. Patents, duplicate preprints, standalone supplementary material, and corrections are excluded.
+- `assets/`: portrait, extracted figures, shared styles, and the theme/figure viewer script.
+- `assets/publications.json`: bibliographic metadata for reference when updating the pages.
 
-## Content to finish
+The visual style follows the clean academic layout of Litian Liu's homepage; the implementation is independent. All pages are static HTML and work without a build step. JavaScript adds optional theme switching and enlarged figure previews.
 
-1. Confirm the display name, role, and affiliation.
-2. Supply the Google Scholar and LinkedIn profile URLs.
-3. Add a concise biography, research themes, selected papers, experience, and education.
-4. Choose an optional photo and a public contact method.
-5. Review the complete site before public release.
+## Source material
 
-Use the resume only to extract approved facts. Keep the original file outside this repository and never add a resume download link.
+The biography uses the supplied CV, the public LinkedIn profile, and recent Google Scholar work. The CV file is reference material only: never commit it or add a download link. The profile photo was supplied for use on the homepage. Selected paper figures are extracted from the linked original papers, and each figure links back to its source paper.
 
-## Preview
+Publication years follow the final venue or journal year rather than a later arXiv upload date. QIVD is a benchmark paper, so its dataset overview is shown instead of an unavailable method block diagram. Older paper links may point to their Google Scholar records.
 
-Open `index.html` directly in a browser, or serve this folder with a local static server. No installation or compilation is needed.
+## Preview and release
 
-## Publish later
+Open `index.html` directly in a browser, or serve this folder with a local static server. Before release, review the biography, patent-count wording, publication metadata, and contact details.
 
-Only after the owner asks for public release, make the repository public if needed for the account's Pages plan, then enable GitHub Pages from `main` and the repository root. The intended website address is `https://rezapourreza.github.io/`.
-
-The `.nojekyll` file lets GitHub Pages serve these files directly.
+Only after the owner requests public release, make the repository public if required by the account's Pages plan, then enable GitHub Pages from `main` and the repository root. The intended address is `https://rezapourreza.github.io/`. `.nojekyll` serves the files directly.
