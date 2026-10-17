@@ -4,12 +4,12 @@ Private working draft for `rezapourreza.github.io`. Public release has not been 
 
 ## Website
 
-- `index.html`: biography, profile photo, top social links, and seven selected papers with original paper figures and short summaries.
+- `index.html`: biography, location, U.S. work experience, profile photo, top social links, and seven selected papers with original paper figures and short summaries.
 - `publications.html`: scholarly papers grouped by publication year. Patents, duplicate preprints, standalone supplementary material, and corrections are excluded.
 - `assets/`: portrait, extracted figures, shared styles, and the theme/figure viewer script.
 - `assets/publications.json`: bibliographic metadata for reference when updating the pages.
 
-The visual style follows the clean academic layout of Litian Liu's homepage; the implementation is independent. All pages are static HTML and work without a build step. JavaScript adds optional theme switching and enlarged figure previews.
+The visual style follows the clean academic layout of Litian Liu's homepage; the implementation is independent. All pages are static HTML and work without a build step. The default theme is dark, with Qualcomm blue accents and brand-colored profile icons. JavaScript adds optional theme switching and enlarged figure previews.
 
 ## Source material
 
@@ -19,6 +19,6 @@ Publication years follow the final venue or journal year rather than a later arX
 
 ## Preview and release
 
-Open `index.html` directly in a browser, or serve this folder with a local static server. Before release, review the biography, patent-count wording, publication metadata, and contact details.
+Open `index.html` directly in a browser, or serve this folder with a local static server. Before release, review the biography, work experience, publication metadata, and contact details.
 
 Only after the owner requests public release, make the repository public if required by the account's Pages plan, then enable GitHub Pages from `main` and the repository root. The intended address is `https://rezapourreza.github.io/`. `.nojekyll` serves the files directly.
