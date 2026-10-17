@@ -162,7 +162,11 @@
     ],
     "year": 2024,
     "venue": "NeurIPS, Datasets and Benchmarks",
-    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/8aa695b5d6bf9e958d4e56b22c9b859d-Abstract-Datasets_and_Benchmarks_Track.html"
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/8aa695b5d6bf9e958d4e56b22c9b859d-Abstract-Datasets_and_Benchmarks_Track.html",
+    "equal_contribution": [
+      "Sunny Panchal",
+      "Apratim Bhattacharyya"
+    ]
   },
   {
     "id": "look-remember-and-reason-grounded-reasoning-in-videos-with-language-models",
@@ -170,8 +174,8 @@
     "authors": [
       "Apratim Bhattacharyya",
       "Sunny Panchal",
-      "Reza Pourreza",
       "Mingu Lee",
+      "Reza Pourreza",
       "Pulkit Madan",
       "Roland Memisevic"
     ],
@@ -464,7 +468,12 @@
     ],
     "year": 2020,
     "venue": "ACCV",
-    "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=BqNYf-oAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=BqNYf-oAAAAJ:TQgYirikUcIC"
+    "url": "https://openaccess.thecvf.com/content/ACCV2020/papers/Golinski_Feedback_Recurrent_Autoencoder_for_Video_Compression_ACCV_2020_paper.pdf",
+    "equal_contribution": [
+      "Adam Golinski",
+      "Reza Pourreza",
+      "Yang Yang"
+    ]
   },
   {
     "id": "recognizing-compressed-videos-challenges-and-promises",
@@ -918,7 +927,7 @@
     "id": "automatic-hdr",
     "title": "Automatic Exposure Selection and Fusion for High Dynamic Range Photography via Smartphones",
     "authors": [
-      "Reza Pourreza-Shahri",
+      "Reza Pourreza",
       "Nasser Kehtarnavaz"
     ],
     "year": 2017,
@@ -930,13 +939,13 @@
     "doi": "10.1007/s11760-017-1104-9",
     "summary": "Automatic exposure selection and efficient image fusion bring high-dynamic-range photography to smartphones.",
     "diagram": "assets/papers/automatic-hdr-exposure.png",
-    "figure_number": 1,
-    "figure_page": 2,
-    "figure_description": "Exposure-selection pipeline: initial exposure, scene clustering, and exposure-time determination.",
-    "figure_kind": "method diagram",
+    "figure_number": 9,
+    "figure_page": 7,
+    "figure_description": "Under-exposed, normal-exposed, and over-exposed smartphone images above their fused high-dynamic-range result.",
+    "figure_kind": "exposure fusion results",
     "diagram_dimensions": [
-      987,
-      116
+      986,
+      1006
     ]
   },
   {
