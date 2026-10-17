@@ -41,5 +41,5 @@ Figures are extracted from the papers below. They are displayed as thumbnails an
 ## Automatic Exposure Selection and Fusion for High Dynamic Range Photography via Smartphones
 
 - Image: `automatic-hdr-exposure.png`
-- Original: Figure 1, PDF page 2 (method diagram).
+- Original: Figure 9, PDF page 7 (exposure fusion results).
 - Paper: [Automatic Exposure Selection and Fusion for High Dynamic Range Photography via Smartphones](https://arxiv.org/pdf/2004.10365)
