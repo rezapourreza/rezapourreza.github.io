@@ -1,6 +1,6 @@
 # Reza Pourreza — personal homepage
 
-Private working draft for `rezapourreza.github.io`. Public release has not been requested.
+Personal academic homepage, published at https://rezapourreza.github.io/.
 
 ## Website
 
@@ -17,8 +17,8 @@ The biography uses the supplied CV, the public LinkedIn profile, and recent Goog
 
 Publication years follow the final venue or journal year rather than a later arXiv upload date. QIVD is a benchmark paper, so its dataset overview is shown instead of an unavailable method block diagram. Older paper links may point to their Google Scholar records.
 
-## Preview and release
+## Preview and deployment
 
-Open `index.html` directly in a browser, or serve this folder with a local static server. Before release, review the biography, work experience, publication metadata, and contact details.
+Open `index.html` directly in a browser, or serve this folder with a local static server to preview edits.
 
-Only after the owner requests public release, make the repository public if required by the account's Pages plan, then enable GitHub Pages from `main` and the repository root. The intended address is `https://rezapourreza.github.io/`. `.nojekyll` serves the files directly.
+GitHub Pages deploys from `main` and the repository root. `.nojekyll` serves the files directly. Commits to `main` update the live site.
