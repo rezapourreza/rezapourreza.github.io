@@ -3,19 +3,20 @@
   const themeButton = document.querySelector('.theme-toggle');
   function updateTheme(theme) {
     root.dataset.theme = theme;
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#18191b' : '#ffffff');
     const next = theme === 'dark' ? 'light' : 'dark';
     themeButton?.setAttribute('aria-label', `Switch to ${next} theme`);
     themeButton?.setAttribute('title', `Switch to ${next} theme`);
   }
   let saved;
-  try { saved = localStorage.getItem('reza-theme'); } catch {}
-  updateTheme(saved === 'dark' ? 'dark' : 'light');
+  try { saved = localStorage.getItem('reza-theme-v2'); } catch {}
+  updateTheme(saved === 'light' ? 'light' : 'dark');
   if (themeButton) {
     themeButton.hidden = false;
     themeButton.addEventListener('click', () => {
       const theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
       updateTheme(theme);
-      try { localStorage.setItem('reza-theme', theme); } catch {}
+      try { localStorage.setItem('reza-theme-v2', theme); } catch {}
     });
   }
   const dialog = document.querySelector('.figure-dialog');
