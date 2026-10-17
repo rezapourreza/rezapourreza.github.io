@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Reza’s personal homepage: research, publications, and professional background.">
+  <title>Reza · Personal homepage</title>
+  <style>
+    :root { color-scheme: light; --paper:#f8f7f3; --ink:#252c35; --muted:#626973; --line:#dedfdc; --accent:#315b6c; --soft:#edf1f0; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; scroll-padding-top:32px; }
+    body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    a { color:var(--accent); text-underline-offset:4px; }
+    a:hover { text-decoration-thickness:2px; }
+    a:focus-visible { outline:2px solid var(--accent); outline-offset:5px; border-radius:2px; }
+    .skip { position:absolute; left:20px; top:-80px; padding:8px 16px; background:var(--paper); z-index:2; }
+    .skip:focus { top:12px; }
+    .layout { width:min(1100px,100%); margin:auto; padding:64px 42px 28px; display:grid; grid-template-columns:220px minmax(0,1fr); gap:88px; }
+    .sidebar { align-self:start; position:sticky; top:48px; }
+    .monogram { width:64px; height:64px; display:grid; place-items:center; color:var(--paper); background:var(--accent); border-radius:50%; font:34px Georgia,serif; margin-bottom:24px; }
+    h1 { font:normal 40px/1.2 Georgia,"Times New Roman",serif; margin:0 0 5px; letter-spacing:-1px; }
+    .subtitle { margin:0; color:var(--muted); font-size:14px; }
+    nav { display:grid; gap:12px; margin-top:40px; }
+    nav a { color:var(--ink); text-decoration:none; font-size:14px; width:fit-content; }
+    nav a:hover { color:var(--accent); text-decoration:underline; }
+    .profile-link { display:inline-block; margin-top:36px; font-size:14px; }
+    .draft { display:inline-flex; align-items:center; gap:8px; margin:0 0 32px; padding:4px 12px; border-radius:20px; background:var(--soft); color:#48605f; font-size:12px; letter-spacing:.035em; }
+    .draft::before { content:""; height:6px; width:6px; border-radius:50%; background:#6d8d80; }
+    .eyebrow { margin:0 0 12px; font-size:12px; text-transform:uppercase; letter-spacing:.15em; color:var(--accent); font-weight:600; }
+    h2 { font:normal clamp(35px,4.5vw,54px)/1.14 Georgia,"Times New Roman",serif; letter-spacing:-1.4px; margin:0 0 24px; }
+    .intro { color:var(--muted); max-width:560px; margin:0; font-size:18px; line-height:1.7; }
+    .hero { padding-bottom:48px; }
+    section { padding:34px 0 38px; border-top:1px solid var(--line); }
+    h3 { font:normal 26px/1.3 Georgia,"Times New Roman",serif; letter-spacing:-.4px; margin:0 0 22px; }
+    .section-title { display:flex; gap:16px; align-items:baseline; }
+    .number { font-size:11px; letter-spacing:.06em; color:var(--muted); }
+    .placeholder { border-left:2px solid #cdd7d8; padding:0 0 0 20px; }
+    .placeholder strong { display:block; font-size:15px; font-weight:500; margin-bottom:5px; }
+    .placeholder p { margin:0; color:var(--muted); font-size:14px; }
+    .pending { display:block; font-size:11px; font-weight:600; letter-spacing:.09em; text-transform:uppercase; color:#637a80; margin-bottom:12px; }
+    .contact p { color:var(--muted); font-size:14px; margin:0 0 14px; }
+    .contact a { font-size:14px; }
+    footer { border-top:1px solid var(--line); padding-top:22px; display:flex; justify-content:space-between; gap:12px; color:var(--muted); font-size:11px; }
+    @media(max-width:800px) { .layout { gap:42px; grid-template-columns:180px minmax(0,1fr); padding:44px 28px 24px; } }
+    @media(max-width:620px) { .layout { display:block; padding:28px 24px; } .sidebar { position:static; padding-bottom:30px; margin-bottom:30px; border-bottom:1px solid var(--line); } .monogram { width:46px; height:46px; font-size:26px; float:left; margin:0 16px 0 0; } h1 { font-size:32px; } .subtitle { font-size:12px; } nav { clear:both; display:flex; flex-wrap:wrap; gap:8px 22px; margin-top:24px; } nav a { font-size:13px; } .profile-link { margin-top:16px; font-size:13px; } .draft { margin-bottom:24px; } h2 { font-size:42px; } .hero { padding-bottom:32px; } section { padding:28px 0; } footer { flex-wrap:wrap; } }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="layout">
+    <aside class="sidebar" aria-label="Profile and navigation">
+      <div class="monogram" aria-hidden="true">R</div>
+      <!-- Confirm the preferred display name before release. -->
+      <h1>Reza</h1>
+      <p class="subtitle">Personal homepage</p>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#background">Background</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="profile-link" href="https://github.com/rezapourreza">GitHub <span aria-hidden="true">↗</span></a>
+    </aside>
+    <main id="main">
+      <header class="hero">
+        <p class="draft">Draft · Content in progress</p>
+        <p class="eyebrow">Welcome</p>
+        <h2>Research &amp;<br>selected work.</h2>
+        <p class="intro">A home for my research, publications, and professional background.</p>
+      </header>
+      <section id="about" aria-labelledby="about-title">
+        <div class="section-title"><span class="number" aria-hidden="true">01</span><h3 id="about-title">About</h3></div>
+        <div class="placeholder">
+          <span class="pending">To be personalized</span>
+          <strong>A short introduction</strong>
+          <p>This section will introduce my current role, background, and research interests.</p>
+        </div>
+      </section>
+      <section id="research" aria-labelledby="research-title">
+        <div class="section-title"><span class="number" aria-hidden="true">02</span><h3 id="research-title">Research</h3></div>
+        <div class="placeholder">
+          <span class="pending">To be personalized</span>
+          <strong>Questions, projects, and ideas</strong>
+          <p>Research themes and selected projects will appear here.</p>
+        </div>
+      </section>
+      <section id="publications" aria-labelledby="publications-title">
+        <div class="section-title"><span class="number" aria-hidden="true">03</span><h3 id="publications-title">Selected publications</h3></div>
+        <div class="placeholder">
+          <span class="pending">Awaiting Google Scholar profile</span>
+          <strong>A selection of research contributions</strong>
+          <p>Publication titles, authors, venues, and paper links will appear here.</p>
+        </div>
+      </section>
+      <section id="background" aria-labelledby="background-title">
+        <div class="section-title"><span class="number" aria-hidden="true">04</span><h3 id="background-title">Experience &amp; education</h3></div>
+        <div class="placeholder">
+          <span class="pending">To be personalized</span>
+          <strong>Professional and academic background</strong>
+          <p>Selected roles and education will appear here after the details are reviewed.</p>
+        </div>
+      </section>
+      <section id="contact" class="contact" aria-labelledby="contact-title">
+        <div class="section-title"><span class="number" aria-hidden="true">05</span><h3 id="contact-title">Get in touch</h3></div>
+        <p>Professional profile and contact links will be added here.</p>
+        <a href="https://github.com/rezapourreza">Find me on GitHub <span aria-hidden="true">↗</span></a>
+      </section>
+      <footer><span>Reza · Personal homepage</span><span>Draft for review</span></footer>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+# Reference material stays outside the website repository.
+private/
+references/
+*resume*
+*Resume*
+*RESUME*
+*CV*
+*cv.*
+*.docx
+*.doc
+.DS_Store
+__pycache__/
+.preview/
+*.log
